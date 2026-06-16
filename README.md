@@ -40,26 +40,19 @@ Key concepts practiced:
 - Risk-level classification logic
 - Safety-focused AI response design
 
- git clone https://github.com/EmmanRay567/YOUR-REPO-NAME.git
-Then move into the project folder:
+## How to Run
+To run the NeuroLimb AI Diagnostic System, clone this repository to your computer using git clone https://github.com/EmmanRay567/YOUR-REPO-NAME.git.
 
-cd YOUR-REPO-NAME
+After cloning the repository, move into the project folder using cd YOUR-REPO-NAME.
 
-Install the required Python packages:
+Install the required Python packages by running pip install -r requirements.txt.
 
-pip install -r requirements.txt
+This project uses the OpenAI API, so you need to set your OpenAI API key as an environment variable. On Windows PowerShell, run setx OPENAI_API_KEY "your_api_key_here".
 
-This project uses the OpenAI API, so you need to set your OpenAI API key as an environment variable. On Windows PowerShell, run:
+After setting the API key, close and reopen your terminal so the new environment variable can load correctly.
 
-setx OPENAI_API_KEY "your_api_key_here"
-
-After setting the API key, close and reopen your terminal. Then run the program:
-
-python diagnostic_ai.py
+Run the program with python diagnostic_ai.py.
 
 The program will ask for prosthetic device information such as the device type, battery level, motor temperature, grip strength, response delay, calibration status, error code, and a description of the issue. After the information is entered, Lexus will generate an AI-powered diagnostic support report using the OpenAI API and FDA medical device event data.
 
 Important: This project is an educational prototype. It is not a medical device, does not provide medical diagnosis, and should not replace advice from a doctor, prosthetist, certified technician, or manufacturer support.
-
-
-Just replace `YOUR-REPO-NAME` with the exact name of your GitHub repo.
