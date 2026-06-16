@@ -40,12 +40,7 @@ Key concepts practiced:
 - Risk-level classification logic
 - Safety-focused AI response design
 
-  ## How to Run
-
-To run the NeuroLimb AI Diagnostic System, first clone the repository to your computer:
-
-```bash
-git clone https://github.com/EmmanRay567/YOUR-REPO-NAME.git
+ git clone https://github.com/EmmanRay567/YOUR-REPO-NAME.git
 Then move into the project folder:
 
 cd YOUR-REPO-NAME
